@@ -31,12 +31,17 @@ function App() {
 
   ];
   return (
-    <div>
-      <header>
-        <h1 className='Titre'>Tableau des dépenses</h1>
-      </header>
-      <Expenses expense={aLotOfExpenses}></Expenses>
+    <div class="App">
+      <div>
+        <header class="header">
+            <h1 className='Titre'>Tableau des dépenses</h1>
+        </header>
+      </div>;
+      <div class="tableau">
+        <Expenses expense={aLotOfExpenses}></Expenses>
+      </div>
     </div>
+
   )
 
 }

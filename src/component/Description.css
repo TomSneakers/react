@@ -1,0 +1,18 @@
+.Box {
+    background-color: rgb(145, 140, 140);
+    justify-content: space-between;
+    display: flex;
+} 
+.titre{
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+}
+.date {
+justify-content: center;
+display: flex;
+}
+.montant {
+justify-content: center;
+display: flex;
+}
